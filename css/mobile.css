@@ -1,0 +1,40 @@
+.hdrbg { background-image: url('../img/headerbg3\ -\ Copy.png'); height: 70vh;}
+.dropdown-content { text-align: center;}
+.dropdown {
+    text-align: center;
+    flex-direction: column;
+    display: none;
+}
+.logo2 img { height: 60px; padding: 0 2rem;}
+.dropdown.active { display: flex; }
+.navpanel {flex-direction: column;}
+.dropdown.active button { text-align: center;}
+.slogan { padding: 10% 10%; direction: rtl}
+#slgnbigtitle {font-size: 2em;}
+#slgnsmalltitle {margin-left: 10em; margin-top: 2em;}
+.tittle { font-size: 1.5em; padding-top: 1rem;}
+.idea {  flex-direction: column; padding: 1rem;}
+main {padding: 1rem;}
+.subtittle {font-size: 1.5em; padding: 1rem 0;}
+.problem { text-align: center; padding: 1rem;}
+.icons { flex-direction: column; }
+.problem, .idea { margin: 2rem 0;}
+.idea .fa-solid{order: 1;}
+.idea iframe {order: 1;}
+.idea .ideatxt{order: 2;}
+.idea .fa-solid{padding: 1rem 0; text-align: center;}
+.navpanel {
+  position: sticky;
+  top: 0px;
+  width: 100%;
+}
+.navigation-auto { margin-left: 4rem; }
+.navigation-manual { margin-left: 4rem; }
+.feedback { text-align: center;}
+.feedback img { margin: auto;}
+.about .ideatxt {padding: 1rem 0;}
+.about iframe{
+  width: 100%;
+   height: 315px; 
+} 
+.txt, .subtittle {text-align: center;}

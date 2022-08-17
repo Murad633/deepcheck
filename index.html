@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (min-width: 768px)" href="css/dekstop.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mobile.css">
+    <title>DeepCheck</title>
+</head>
+<body>
+  <nav id='navpanel' class="navpanel">
+    <a href="#"><div class="logo2"><img id='logo'  src="img/deepcheck_logo.png" alt="Logo"></div></a>
+    <!-- <div class="logo3" href="#"><a href="#"><img height="60px" src="img/deepcheck_logo.png" alt="Logo"></a></div> -->
+    <div class="menu-btn">
+      <div class="menu-btn__burger"></div>
+    </div>
+        <div class="dropdown"><ul id="nav-ul"> 
+        <li><button class="btn"><a href="#">Home</a></button></li>
+        <li><button onclick="myFunction()" class="dropbtn btn">Project</button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="#idea">Idea</a>
+                <a href="#problem">Problems</a>
+                <a href="#purpose">Purpose</a>
+                <a href="#advantage">Competitive Advantages</a>
+            </div></li>
+            <script src="js/dropdown.js"></script>
+        <li><button class="btn"><a href="#team">Team</a></button></li>
+        <li><button class="btn"><a href="#feedback">Feedback</a></button></li>
+        <li><button class="btn"><a href="#contact">Contact</a></button></li>
+        <li><button class="btn"><a href="#about">About Us</a></button></li>
+            </ul> 
+        </div>
+    <script src="js/toggle.js"></script>
+    <script src="js/openanime.js"></script>
+    <script src="js/scroll.js"></script>
+</nav>
+    <header>
+        <div class="hdrbg">
+          <div class="slogan">
+            <p id="slgnbigtitle">Pot of unfading plants</p>
+            <p id="slgnsmalltitle">"Flowers of the gardener who loves his garden never wilt, <br>
+              In this garden nightingales never get tired of sing"</p>
+          </div>
+        </div>
+    </header>
+    <main>
+      <section class="project">
+        <p class="tittle" style="text-align: center;">About Project:</p>
+        <article id="idea" class="idea">
+          <img src="img/pot.jpeg" alt="Pot">
+          <div class="ideatxt">
+            <p class="subtittle">Idea</p>
+            <p class="txt">In the system we offer, with the help of AI the plant in the pot is identified and the temperature and humidity are regulated according to plant. Watering times of plants are changing depending on the degree of humidity, temperature and storage conditions of the flower. Our system waters flowers when they need.The monitor on the pot informs the user about the condition of the plant. Also, user can get real time information about the plant through the application on the phone.</p>
+          </div>
+        </article>
+
+        <article id="problem" class="problem">
+          <p class="subtittle" style="text-align: center;">Problems</p>
+          <div class="icons">
+            <div class="icon">
+              <i class="fa-solid fa-plane-departure"></i>
+              <p class="txt">1. People who are going on vacation are not able to water plants while they are on holidays</p>
+            </div>
+            <div class="icon">
+              <i class="fa-solid fa-briefcase"></i>
+              <p class="txt">2. People with a heavy work schedule are not able to care for their plants, flowers.</p>
+            </div>
+            <div class="icon">
+              <i class="fa-solid fa-sun-plant-wilt"></i>
+              <p class="txt">3. Sometimes people who love flowers keep the flower in a very dry place and the leaves fade even if they are watered by default watering time.</p>
+            </div>
+            <div class="icon">
+              <i class="fa-solid fa-water"></i>
+            <p class="txt">4. Root system damaged from being kept too wet</p>
+            </div>
+          </div>
+        </article>
+        <article id="purpose" class="idea">
+          <div class="ideatxt">
+            <p class="subtittle">Purpose</p>
+            <p class="txt">Our goal is to help people who go on vacation or don’t have much time caring for flowers because of work, but want to take care of their plants. The system we offer always takes care of their plants and does not allow their leaves to wither and their roots to be damaged. Also, they can always get information about the condition of their plants remotely when they are away from home.</p>
+          </div>
+          <i class="fa-solid fa-crosshairs"></i>
+        </article>
+        <article class="idea" id="advantage">
+          <i class="fa-solid fa-medal"></i>
+          <div class="ideatxt">
+            <p class="subtittle">Competitive Advantages</p>
+            <p class="txt">80-90% of self-watering pots that are sold in stores and online stores are not electronic. Even the electronic ones simply water the pot by starting an engine for a while. Watering times of plants are changing depending on the degree of humidity, temperature and storage conditions of the flower. But the pot that we offer are completely solar powered electronic system. With the help of Aİ, the ideal soil temperature and humidity for each plant is regulated. Water is poured in when the plant needs it, and are displayed on a monitor on the pot when needed. Also, users can get current and up to date  information about plant via application in the phone.</p>
+          </div>
+        </article>
+      </section>
+      <section class="team" id="team">
+        <p class="tittle">Our Team:</p> 
+        <div class="carousel ">
+          <!--image slider start-->
+        <div class="slider">
+          <div class="slides">
+            <!--radio buttons start-->
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+            <input type="radio" name="radio-btn" id="radio5">
+            <!--radio buttons end-->
+            <!--slide images start-->
+            <div class="slide first">
+              <img src="img/razi.png" alt="">
+              <div style="padding: 2rem;">
+                <p class="subtittle" style="color: #006c42;">Razi Allahverdiyev</p>
+                <p class="txt" >Founder</p>
+                <div class="social">
+                  <a target="_blank" href="https://www.linkedin.com/in/raziallahverdiyev/"><i class="fa-brands fa-linkedin"></i></a>
+                  <div class="insta">
+                    <a target="_blank" href="https://www.instagram.com/15.razzy/"><i class="fa-brands fa-instagram"></i></a>
+                  </div>
+                  <a target="_blank" href="https://www.facebook.com/razi.allahverdiyev.908"><i class="fa-brands fa-facebook"></i></a>                
+                </div>
+              </div>            
+            </div>
+            <div class="slide">
+              <img src="img/fidan.jpg" alt="">
+              <div style="padding: 2rem;">
+                <p class="subtittle" style="color: #006c42;">Fidan Abdullayeva</p>
+                <p class="txt" >Co-founder</p>
+                <div class="social">
+                  <a target="_blank" href="https://www.linkedin.com/in/fidan-abdullayeva-634bba206/"><i class="fa-brands fa-linkedin"></i></a>
+                  <div class="insta">
+                    <a target="_blank" href="https://www.instagram.com/15.fdnabd/"><i class="fa-brands fa-instagram"></i></a>
+                  </div>
+                  <a target="_blank" href="https://www.facebook.com/fidan.abdullayeva.3344"><i class="fa-brands fa-facebook"></i></a>                
+                </div>
+              </div>            
+            </div>
+            <div class="slide">
+              <img src="img/murad.jpg" alt="">
+              <div style="padding: 2rem;">
+                <p class="subtittle" style="color: #006c42;">Murad Israfilov</p>
+                <p class="txt" >Web developer</p>
+                <div class="social">
+                  <a target="_blank" href="https://www.linkedin.com/in/muradisrafilov/"><i class="fa-brands fa-linkedin"></i></a>
+                  <div class="insta">
+                    <a target="_blank" href="https://www.instagram.com/muradisrafilov_/"><i class="fa-brands fa-instagram"></i></a>
+                  </div>
+                  <a target="_blank" href="https://www.facebook.com/murad.633"><i class="fa-brands fa-facebook"></i></a>                
+                </div>
+              </div>            
+            </div>
+            <div class="slide">
+              <img src="img/fariz.jpg" alt="">
+              <div style="padding: 2rem;">
+                <p class="subtittle" style="color: #006c42;">Fariz Guliyev</p>
+                <p class="txt" >Chief Business Officer</p>
+                <div class="social">
+                  <a target="_blank" href="https://www.linkedin.com/in/fariz-quliyev-2a6731235/"><i class="fa-brands fa-linkedin"></i></a>
+                  <div class="insta">
+                    <a target="_blank" href="https://www.instagram.com/farizguliyev/"><i class="fa-brands fa-instagram"></i></a>
+                  </div>
+                  <a target="_blank" href="https://www.facebook.com/fariz.quliyev.332"><i class="fa-brands fa-facebook"></i></a>                
+                </div>
+              </div>            
+            </div>
+            <div class="slide">
+              <img src="img/gulshan.jpg" alt="">
+              <div style="padding: 2rem;">
+                <p class="subtittle" style="color: #006c42;">Gulshan Mammadova</p>
+                <p class="txt" >SMM Manager</p>
+                <div class="social">
+                  <a target="_blank" href="/"><i class="fa-brands fa-linkedin"></i></a>
+                  <div class="insta">
+                    <a target="_blank" href="https://www.instagram.com/ms.mamedova19/"><i class="fa-brands fa-instagram"></i></a>
+                  </div>
+                  <a target="_blank" href="https://www.facebook.com/profile.php?id=100057469157315"><i class="fa-brands fa-facebook"></i></a>                
+                </div>
+              </div>            
+            </div>
+            <!--slide images end-->
+            <!--automatic navigation start-->
+            <div class="navigation-auto" >
+              <div class="auto-btn1"></div>
+              <div class="auto-btn2"></div>
+              <div class="auto-btn3"></div>
+              <div class="auto-btn4"></div>
+              <div class="auto-btn5"></div>
+            </div>
+            <!--automatic navigation end-->
+          </div>
+          <!--manual navigation start-->
+          <div class="navigation-manual" >
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+            <label for="radio5" class="manual-btn"></label>
+          </div>
+          <!--manual navigation end-->
+        </div>
+        </div>
+        <script src="js/carousel.js"></script>
+      </section>
+      <section class="feedback" id="feedback">
+        <p class="tittle">Feedbacks:</p>
+        <article class="idea">
+         <img src="img/elina.jpeg" alt="">          
+          <div class="ideatxt">
+            <p class="subtittle">Elina Huseynzade</p>
+            <p class="txt">I am a type of person who really likes flowers. Unfortunately, as student, I don't have much time to take care of them. Nearly all flowers need a lot of care, especially, we should adjust temperature, humidity level etc, and flower them in time. With this stuff, I don't have worry about flowers, and I can only enjoy the beautiful plants. This stuff waters plants at any time, even warns me whenever there is a problem with fertilizer or humidity level. That's exactly what I needed and simplifies my life<p>
+          </div>
+        </article>
+      </section>
+      <section class="contact" id="contact">
+        <p class="tittle">Contact us:</p>
+        <div class="social">
+          <a href="https://www.linkedin.com/company/deepcheck0/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+          <div class="insta">
+            <a href="https://www.instagram.com/deep.check/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+          <a href="https://www.facebook.com/DeepCheck-101380772527350" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://twitter.com/Deepcheck1" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+          <a href="mailto:deepcheck.2022@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+      </section>
+      <section class="about" id="about">
+        <p class="tittle">About Us</p>
+        <article class="idea">
+          <div class="ideatxt">
+            <p class="txt">Our project is selft watering electronic pot. Self watering pot is the mix of hardware and AI to take care of plants. Nowadays 90% of theself-watering pots are not electronic, but electronic ones have some problems. Initially, they water plant with intervals. Our system will detect when plant needs to water for different plants. Then, some people don’t have enough information about plants that’s why they don’t know problem of plants from their leaf or root. Our technology will inform user about problem of plant, missing minerals.
+              The system works like this,  User plants something in the pot then AI can recognize seed or user can input name of plant. Then system will adjust temperature, humidity automatically for this plant. Costumer can get information by the monitor on the pot and mobile application.</p>
+          </div>
+          <iframe src="https://www.youtube.com/embed/ljdrS_PH8Ew?autoplay=1&mute=1"></iframe>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <p class="subtittle">All rights reserved by DeepCheck</p>
+      <p class="txt">&copy 2022</p>
+    </footer>
+</body>
+</html>
